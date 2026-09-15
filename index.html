@@ -22,6 +22,7 @@
         </script>
 
     </head>
+
     <body>
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
@@ -36,6 +37,12 @@
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="shortbio.html">Bio</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="events.html">Events</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="contact.html">Contact</a>
+                </div>
+
+                <div class="text-center mt-4 mb-3">
+                    <a href="https://bganglmair.github.io/patccatClaims/" target="_blank"
+                    title="patccatClaims R package">
+                <img src="files/patccatClaims-logo.png" alt="patccatClaims R package" height="150"></a>
                 </div>
             </div>
             <!-- Page content wrapper-->
@@ -145,19 +152,46 @@
                             <tr> <td style="height: 10px"></td></tr>
                             <tr>
                                 <td valign="top" style="text-align:justify"> 
-                                    My research interests lie in industrial organization, strategy, and the economic analysis of law. I use theoretical and empirical tools to address questions related to innovation, competition, privacy, and contracts. I study how <b>laws, regulators, and market competition</b> affect firms’ incentives to invest in <b>research and development</b>, change course of their <b>innovation strategies</b> (e.g., <b>defense</b>-related innovation, <b>AI</b>, or cost-cutting vs. product development), and strategically disclose their inventions to the public. I am also interested in how institutions and their role in R&D drive individuals’ and firms’ incentives to participate in and contribute to <b>technology standardization</b> or form <b>strategic alliances</b> (and <b>share information</b>) with potential competitors. The <b>disclosure</b> in digital markets (e.g., user-data collection), the <b>regulation</b> of these markets and its tools (e.g., the GDPR or state-level regulation in the U.S.) completes my research program. 
+                                    My research interests lie in industrial organization, strategy, and the economic analysis of law. I use theoretical and empirical tools to address questions related to innovation, competition, privacy, and contracts. I study how <b>laws, regulators, and market competition</b> affect firms’ incentives to (strategically) <b>disclose</b> their inventions to the public, to invest in <b>research and development</b>, and to change course of their <b>innovation strategies</b> (e.g., <b>defense</b>-related innovation or cost-cutting vs. product development). I am also interested in how institutions and their role in R&D drive individuals’ and firms’ incentives to form and maintain <b>strategic alliances</b> (and <b>share information</b>) with potential competitors or to participate in and contribute to <b>technology standardization</b>. The <b>disclosure</b> in digital markets (e.g., user-data collection), the <b>regulation</b> of these markets and its tools (e.g., the GDPR or state-level regulation in the U.S.) completes my research program. 
                                 </td>
                             </tr>
 							<tr> <td style="height: 10px"></td></tr>
 							<tr>
                                	<td valign="top" style="text-align:justify"> 
-                                    I have published in the American Economic Journal: Microeconomics, RAND Journal of Economics, Research Policy, and the Journal of Law, Economics, and Organization, among others. For more on my research interests and output, including a list of current projects, see the <a href="research.html">Research</a> tab. For published datasets coming out of my work, see the <a href="data.html">Data</a> tab.
+                                    I have published in the <b>American Economic Journal: Microeconomics</b>, <b>RAND Journal of Economics</b>, <b>Research Policy</b>, and the <b>Journal of Law, Economics, and Organization</b>, among others. For more on my research interests and output (including a policy-oriented output and a list of current projects with R&R status), see the <b><a href="research.html">Research</a></b> tab. 
                                 </td>
                             </tr>
                             <tr> <td style="height: 10px"></td></tr>
                             <tr>
-                                <td valign="top" style="text-align:justify"> 
-                                    If you are interested in what we are doing in my research group Competition and Innovation at the ZEW Mannheim, check out our <a href="https://www.zew.de/WS895-1">group website</a>.
+                                <td valign="top" style="text-align:justify">
+
+                                <div class="panel-note"> 
+                                    <span style="color:#A25B25;"><b>Data and Code:</b></span> I have posted data and code for my <b>patccat</b> project that classifies patent claims as product and process alongside a few other claim types. 
+
+                                    <ul>
+                                    <li>
+                                        The code is now available as an R package (<code>patccatClaims</code> <img src="https://img.shields.io/github/v/release/bganglmair/patccatClaims?logo=github&label=release" alt="Latest release" height="20">) on <b>Github</b> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"> <i class="bi bi-github"></i>.
+                                        <!-- <img src="https://img.shields.io/badge/GitHub-bganglmair%2FpatccatClaims-181717?logo=github" alt="GitHub: bganglmair/patccatClaims" height="20">. --> <br><br>
+
+<pre class="sourceCode r"><code class="sourceCode r"><span class="co"># install.packages("remotes")</span>
+<span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"bganglmair/patccatClaims"</span><span class="op">)</span></code></pre>
+
+You can find more information on <code>patccatClaims</code> on the <b><a href="https://bganglmair.github.io/patccatClaims/" target="_blank">package page</a></b>.
+
+                                    </li>
+
+                                    <li>
+                                        The latest version of the data (with claims granted between 1836 and 2025) is available on Zenodo at <b><a href="https://doi.org/10.5281/zenodo.6395307" target="_blank">https://doi.org/10.5281/zenodo.6395307</a></b>. <b>Version 4.0.0</b> posted on September 15, 2026.
+                                    </li>
+
+                                    <li>
+                                        For more patccat-related data products (raw texts of U.S. patents, 1836-1975; patccat-classified EPO patents), visit the project's Zenodo community page at <b><a href="https://zenodo.org/communities/patccat/" target="_blank">https://zenodo.org/communities/patccat/</a></b>.
+                                    </li>
+
+                                    </ul>
+                                </div>
+                                    For more published datasets coming out of my work, see the <b><a href="data.html">Data</a></b> tab.
+                                    
                                 </td>
                             </tr>
 
@@ -168,24 +202,20 @@
 
                     <table cellspacing="0" border="0">
                         <colgroup>
-                            <col style="width: 240px">
-                            <col style="width: 210px">
-                            <col style="width: 250px">
-                            <col style="width: 200px">
+                            <col style="width: 300px">
+                            <col style="width: 300px">
+                            <col style="width: 300px">
                         </colgroup>
                             <tbody>
                                 <tr>
                                     <td valign="center" style="text-align:center">
-                                        <a href="https://www.crctr224.de/en" target="_blank" imageanchor="1"><img src="files/epos-logo.png" width="90%" border="0"></a>
+                                        <a href="http://www.macci.eu" target="_blank" imageanchor="1"><img src="files/MaCCI-logo.png" width="60%" border="0"></a>
                                     </td>
                                     <td valign="center" style="text-align:center">
-                                        <a href="http://www.macci.eu" target="_blank" imageanchor="1"><img src="files/MaCCI-logo.png" width="80%" border="0"></a>
+                                        <a href="http://www.uni-mannheim.de/en" target="_blank" imageanchor="1"><img src="files/UMA-logo.png" width="80%" border="0"></a>
                                     </td>
                                     <td valign="center" style="text-align:center">
-                                        <a href="http://www.uni-mannheim.de/en" target="_blank" imageanchor="1"><img src="files/UMA-logo.png" width="100%" border="0"></a>
-                                    </td>
-                                    <td valign="center" style="text-align:center">
-                                        <a href="https://www.zew.de/en/" target="_blank" imageanchor="1"><img src="files/ZEW-logo.png" width="65%" border="0"></a>
+                                        <a href="https://www.zew.de/en/" target="_blank" imageanchor="1"><img src="files/ZEW-logo.png" width="60%" border="0"></a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -219,6 +249,26 @@
                             </tr>
 
 <!--    START EVENTS HERE -->
+
+
+                            <tr>
+                                <td></td>
+                                <td valign="top" style="text-align:right">Sept 14, 2026</td>
+                                <td valign="top" style="text-align:center">&ndash;</td>
+                                <td valign="top" style="text-align:justify">
+                                    <b>Just released</b>: The latest release (4.0.0) of our patccat-classified USPTO data is now available on Zenodo at <a href="https://doi.org/10.5281/zenodo.22401669"> <img src="files/zenodo-data-doi.svg" alt="DOI: 10.5281/zenodo.22401669" height="20"></a>. It covers all USPTO patents granted between 1836 and 2025.
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td></td>
+                                <td valign="top" style="text-align:right">Sept 10, 2026</td>
+                                <td valign="top" style="text-align:center">&ndash;</td>
+                                <td valign="top" style="text-align:justify">
+                                    <b>Just released</b>: The R package (<code>patccatClaims</code> at <a href="https://doi.org/10.5281/zenodo.22697822"> <img src="files/zenodo-code-doi.svg" alt="DOI: 10.5281/zenodo.22697822" height="20"></a>) classifies patent claims as product and process alongside a few other claim types. Install the R package with <code>install_github("bganglmair/patccatClaims")</code>.
+                                </td>
+                            </tr>
 
                             <tr>
                                 <td></td>
@@ -591,7 +641,7 @@
 					Erdős Number: 4 (P. Erdős &rarr; L. Babai &rarr; M. Adams &rarr; S. Tschantz &rarr; B. Ganglmair)
 					<!--   END HOME INFORMATION -->
                     <br><br>
-                    <i>Last changed: July 13, 2026</i>
+                    <i>Last changed: September 15, 2026</i>
                     <br><br><br>
                 </div>
             </div>
